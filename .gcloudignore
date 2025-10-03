@@ -1,0 +1,10 @@
+.idea
+*.iml
+.DS_Store
+.envrc
+*.git
+.venv
+file
+diagram
+.gitignore
+README.md
