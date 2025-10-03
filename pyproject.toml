@@ -1,0 +1,19 @@
+[project]
+name = "docker-adc-keyless-gcp"
+version = "0.1.0"
+description = "Example of Python app built with uv and deployed in Cloud Run"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "google-cloud-storage==3.4.0",
+    "google-cloud-bigquery==3.38.0",
+    "fastapi==0.118.0",
+    "uvicorn==0.37.0",
+    "dacite==1.9.2",
+    "toolz==1.0.0"
+]
+
+[dependency-groups]
+dev = [
+    "pytest==8.4.2"
+]
