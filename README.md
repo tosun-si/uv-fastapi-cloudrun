@@ -3,6 +3,8 @@
 This project demonstrates how to create a Python module with FastAPI, build it using [uv](https://github.com/astral-sh/uv)
 — a fast and modern package manager — and deploy the application on Google Cloud Run.
 
+![uv_fastapi_cloud_run.png](diagram/uv_fastapi_cloud_run.png)
+
 ## Local execution with Docker and gcloud CLI
 
 Update `GCloud CLI` :
